@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.left-align {
+    
+    text-align: left;
+}
+
+
+
+/* Tema claro (padrão) */
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.navbar-light {
+    background-color: #f8f9fa;
+}
+
+.btn-outline-dark {
+    border-color: #000;
+    color: #000;
+}
+
+.container-light {
+  
+    height: 450px; /* Substitua pelo valor desejado */
+    background-color: #63C59E; /* Substitua pelo código da cor desejada */
+    padding: 50px; /* Ajuste o padding conforme necessário */    
+     
+}
+
+/* Tema escuro */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.navbar-dark {
+    background-color: #333;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.container-light {
+  
+    height: 450px; /* Substitua pelo valor desejado */
+    background-color: #343d39; /* Substitua pelo código da cor desejada */
+    padding: 50px; /* Ajuste o padding conforme necessário */    
+     
+}

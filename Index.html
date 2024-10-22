@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/Pata.png" type="image/x-icon">
+    <title>Dra. Giselda Veterinária | Veterinária a Domícilio! | Dra. Gi</title>
+    <!-- Importando Bootstrap -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Seu CSS opcional -->
+</head>
+<body>
+
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">Pet Saudavel</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+                <!-- Botões para alternar tema -->
+                <button id="dark-mode-btn" class="btn btn-outline-dark ms-auto me-2">Dark Mode</button>
+                <button id="light-mode-btn" class="btn btn-outline-light">Light Mode</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Cabeçalho -->
+    <header class="text-white py-5">
+        <div class="custom-container">
+            <h1 class="left-align">Veterinária a Domicílio<br> No conforto de sua casa!</h1>
+            <p class="left-align">Cuidando do seu melhor amigo com amor e carinho.</p>
+            <div class="left-align"> <!-- Aplique a classe aqui -->
+                <a href="#servicos" class="btn btn-light btn-lg">Agende uma consulta!</a>
+            </div>            
+        </div>
+    </header>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Serviços</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagem-servico1.jpg" class="card-img-top" alt="Serviço 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 1</h5>
+                            <p class="card-text">Descrição do serviço 1.</p>
+                            <a href="link-servico1.html" class="btn btn-primary">Saiba Mais</a> <!-- Link para Serviço 1 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagem-servico2.jpg" class="card-img-top" alt="Serviço 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 2</h5>
+                            <p class="card-text">Descrição do serviço 2.</p>
+                            <a href="link-servico2.html" class="btn btn-primary">Saiba Mais</a> <!-- Link para Serviço 2 -->
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="imagem-servico3.jpg" class="card-img-top" alt="Serviço 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Serviço 3</h5>
+                            <p class="card-text">Descrição do serviço 3.</p>
+                            <a href="link-servico3.html" class="btn btn-primary">Saiba Mais</a> <!-- Link para Serviço 3 -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Nós (exemplo) -->
+    <section id="sobre" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Sobre</h2>
+            <p class="text-center">Aqui você pode colocar uma descrição sobre você, sua missão e valores.</p>
+        </div>
+    </section>
+
+    <!-- Seção Contato (exemplo) -->
+    <section id="contato" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contato</h2>
+            <p class="text-center">Informações de contato, como endereço, telefone e e-mail.</p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="bg-light text-center py-4">
+        <p>&copy; 2024 GiVet. Todos os direitos reservados.</p>
+    </footer>
+
+    <!-- Importando Bootstrap JS -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="Theme.js"></script>
+</body>
+</html>
